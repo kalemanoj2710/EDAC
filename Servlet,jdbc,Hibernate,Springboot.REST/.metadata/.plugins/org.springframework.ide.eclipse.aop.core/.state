@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="NetbankingRestServer"/>
+<aop-project name="day16-Netbanking"/>
+<aop-project name="day16-spring-boot"/>
+<aop-project name="VendorManagementRestClnt"/>
+<aop-project name="test-demo-service"/>
+<aop-project name="farmway"/>
+<aop-project name="test-demo-api"/>
+</aop-reference-model>

@@ -1,0 +1,10 @@
+package stackImplementation;
+
+public interface IStack {
+	public void push(int x);
+	public int pop();
+	public int getSize();
+	public Boolean isEmpty();
+	public Boolean isFull();
+	public void printStack();
+}

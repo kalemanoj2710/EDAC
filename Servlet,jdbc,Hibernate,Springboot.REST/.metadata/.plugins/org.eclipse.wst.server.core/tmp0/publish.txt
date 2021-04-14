@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Feb 15 16:39:20 IST 2021
+org.eclipse.jst.jee.server\:/binary\:F\:\\DAC-ACTS\\Dac\\Octomber\ Days\\6.Advanced\ JAVA\\Day11-Hibernate-SpringData\\day11_data\\day11_help\\spring-help\\spring-hibernate-rest-jars\\spring-web-5.2.0.RELEASE.jar=WEB-INF/lib/spring-web-5.2.0.RELEASE.jar
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\Jayeshvishal\\.m2\\repository\\org\\springframework\\spring-web\\4.3.18.RELEASE\\spring-web-4.3.18.RELEASE.jar=WEB-INF/lib/spring-web-4.3.18.RELEASE.jar

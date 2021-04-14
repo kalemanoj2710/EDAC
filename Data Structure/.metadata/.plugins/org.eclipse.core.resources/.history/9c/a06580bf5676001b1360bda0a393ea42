@@ -1,0 +1,71 @@
+package StackUsingSinglyLinkedList;
+
+
+public class SinglyListStack implements StackImpl {
+
+	class SListNode {
+		int data;
+		SListNode next;
+	}
+	private SListNode stack;
+	private SListNode head;
+	@Override
+	public void push(int no) {
+		stack = new SListNode();
+		System.out.println(no+" Pushed Into Stack");
+		stack.data=no;
+		stack.next=head;
+		head=stack;
+	}
+	@Override
+	public int pop() {
+		SListNode current = head;
+		if (current == null)
+			System.out.println("Stack is empty !!");
+		else {
+			if (current.next != null) {
+				System.out.println(current.data+" Is Poped From Stack !!");
+				current.data = current.next.data;
+				current.next = current.next.next;
+				
+			} else {
+				System.out.println(head.data+" Is Poped From Stack !!");
+				head = null;
+			}
+		}
+		return 0;
+
+	}
+	@Override
+	public void display() {
+		SListNode current = head;
+		if(current==null)
+			System.out.println("Stack is Empty");
+		else {
+		while (current != null) {
+			System.out.print(current.data + " ");
+			current = current.next;
+		}
+		}
+	}
+	@Override
+	public int top() {
+		SListNode current = head;
+		if(current==null)
+			System.out.println("Stack is Empty");
+		
+		return current.data;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		SListNode current = head;
+		if(current==null)
+		return true;
+		else 
+			return false;
+	}
+
+	
+
+}

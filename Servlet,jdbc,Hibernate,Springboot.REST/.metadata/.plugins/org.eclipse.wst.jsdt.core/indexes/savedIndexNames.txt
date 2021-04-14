@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+F:\DAC-ACTS\STS Advanced\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+876503723.index
+1905397845.index
+1678887230.index
+1949861711.index
+251987347.index
+1678149398.index
+2928158064.index

@@ -1,0 +1,10 @@
+package StackUsingSinglyLinkedList;
+
+public interface StackImpl {
+	  public void push(int elem); 
+	  public int pop(); 
+	  public int top(); 
+	  public void display();
+	  public boolean isEmpty(); 
+	 
+}

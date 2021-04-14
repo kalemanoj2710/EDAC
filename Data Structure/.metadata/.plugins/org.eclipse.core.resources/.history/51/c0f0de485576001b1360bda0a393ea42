@@ -1,0 +1,75 @@
+package com.app.stack;
+
+import java.util.Scanner;
+
+public class TestStack {
+	
+	public static void main(String[] args) {
+		
+		StackClass stack= new StackClass();
+		int choice = 0;
+		boolean flag = true;
+		try (Scanner scan = new Scanner(System.in)) {
+			
+			System.out.println("\nPress Enter to Start...");
+			
+			while (flag) {
+				scan.nextLine();
+				System.out.println(
+						"1.Add an element in Stack \n2.remove Top element\n3.Find out the Top element\n4.Check stack is empty\n5.Check stack is full\n6.Exit\nEnter Correct Choice");
+
+				try {
+					choice = scan.nextInt();
+					switch (choice) {
+					case 1:
+						System.out.println("Enter the element: ");
+						stack.push(scan.nextInt());
+						System.out.println("Element added Successfully...");
+						break;
+					case 2:
+						stack.pop();
+						
+						break;
+					case 3:
+						
+						System.out.println("Top element is :"+stack.top());
+						break;
+					case 4:
+						
+						if(stack.isEmpty())
+							System.out.println("stack is Empty...");
+						else
+							System.out.println("stack is not Empty...");
+						break;
+					case 5:
+						if(stack.isFull())
+							System.out.println("Stack is Full");
+						else
+							System.out.println("Stack is not Full");
+						break;
+					case 6:
+						flag=false;
+						System.out.println("program Ended successfully");
+						break;
+						
+					default:
+						System.out.println("Enter Correct choice");
+						break;
+					}
+				} catch (Exception e) {
+					if (e.getMessage() == null)
+						System.out.println("Error Details:- Inavalid Input");
+					else
+						System.out.println(e.getMessage());
+				}
+			}
+		} catch (Exception e) {
+			if (e.getMessage() == null)
+				System.out.println("Error Details:- Inavalid Input");
+			else
+				System.out.println(e.getMessage());
+		}
+
+	}
+
+}

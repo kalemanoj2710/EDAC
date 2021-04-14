@@ -1,0 +1,52 @@
+package singlyLinkedList;
+
+
+public class SList implements ISinglyLinkedList {
+	private SListNode head;
+	class SListNode{
+		int data;
+		SListNode next;
+	}
+	
+	@Override
+	public void addAtEnd(int elem) {
+		SListNode node=new SListNode();
+		node.data=elem;
+		node.next=null;
+		if(head ==null) {
+			head=node;
+		}
+		else {
+			SListNode last=head;
+			while(last.next !=null) {
+				last=last.next;
+			}
+			last.next=node;
+		}
+
+	}
+
+	@Override
+	public int getFront() {
+		 if (head == null) { 
+	            System.out.println("Empty List");
+	        } 
+	  
+	        // Returns the first element 
+	        return head.data; 
+		
+	}
+
+	@Override
+	public void removeFront() {
+		
+
+	}
+
+	@Override
+	public boolean isEmpty() {
+		
+		return false;
+	}
+
+}

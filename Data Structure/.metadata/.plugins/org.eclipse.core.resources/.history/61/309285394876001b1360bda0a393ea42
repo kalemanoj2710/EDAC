@@ -1,0 +1,5 @@
+package stackImplementation;
+
+public interface IStack {
+
+}

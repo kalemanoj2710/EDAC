@@ -1,0 +1,29 @@
+package singlyLinkedList;
+
+public class SList implements ISinglyLinkedList {
+
+	@Override
+	public void addAtEnd(int elem) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public int getFront() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void removeFront() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

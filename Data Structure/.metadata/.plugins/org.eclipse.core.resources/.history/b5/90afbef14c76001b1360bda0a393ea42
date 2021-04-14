@@ -1,0 +1,5 @@
+package singlyLinkedList;
+
+public interface ISinglyLinkedList {
+
+}

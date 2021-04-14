@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1611715257814_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1611715257912_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1615876564438_4" label="test-demo" name="test-demo">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/test-demo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/test-demo-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/test-demo-api" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1611717031385_2" label="Window Working Set" name="Aggregate for window 1611717031385"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1611718086872_3" label="Window Working Set" name="Aggregate for window 1611718086872"/>
+</workingSetManager>

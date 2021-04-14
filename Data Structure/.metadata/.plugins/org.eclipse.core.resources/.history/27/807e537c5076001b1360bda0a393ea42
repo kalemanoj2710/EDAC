@@ -1,0 +1,68 @@
+package singlyLinkedList;
+
+public class SList implements ISinglyLinkedList {
+	private SListNode head; 
+	private SListNode tail;
+
+	class SListNode {
+		int data;
+		SListNode next;
+	}
+
+	@Override
+	public void addAtEnd(int elem) {
+		SListNode node = new SListNode();
+		node.data = elem;
+		node.next = null;
+		if (head == null) {
+			head = node;
+		} else {
+			SListNode last = head;
+			while (last.next != null) {
+				last = last.next;
+			}
+			last.next = node;
+		}
+
+	}
+
+	@Override
+	public int getFront() {
+		if (head == null) {
+			System.out.println("Empty List");
+		}
+
+		return head.data;
+
+	}
+
+	@Override
+	public void removeFront() {
+		 if(head == null) {  
+	            System.out.println("List is empty");  
+	            return;  
+	        }  
+	        else {  
+	            //Checks whether the list contains only one node  
+	            //If not, the head will point to next node in the list and tail will point to the new head.  
+	            if(head != tail) {  
+	                head = head.next;  
+	            }  
+	            //If the list contains only one node  
+	            //then, it will remove it and both head and tail will point to null  
+	            else {  
+	                head = tail = null;  
+	            }  
+	        }  
+
+		
+
+	}
+
+	@Override
+	public boolean isEmpty() {
+
+		return false;
+	}
+
+}

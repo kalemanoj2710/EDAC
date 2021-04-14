@@ -1,0 +1,7 @@
+127.0.0.1 - - [11/Feb/2021:08:57:26 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Feb/2021:08:58:09 +0530] "GET /day13_spring_mvc2/ HTTP/1.1" 200 392
+0:0:0:0:0:0:0:1 - - [11/Feb/2021:08:58:13 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [11/Feb/2021:08:59:28 +0530] "GET /day13_spring_mvc2/test/hello2?start=10&end=50 HTTP/1.1" 200 363
+0:0:0:0:0:0:0:1 - - [11/Feb/2021:08:59:40 +0530] "GET /day13_spring_mvc2/test/hello1 HTTP/1.1" 200 219
+0:0:0:0:0:0:0:1 - - [11/Feb/2021:08:59:44 +0530] "GET /day13_spring_mvc2/test/hello2?start=10&end=50 HTTP/1.1" 200 363
+0:0:0:0:0:0:0:1 - - [11/Feb/2021:08:59:56 +0530] "GET /day13_spring_mvc2/test/hello2?start=10&end=50 HTTP/1.1" 200 363

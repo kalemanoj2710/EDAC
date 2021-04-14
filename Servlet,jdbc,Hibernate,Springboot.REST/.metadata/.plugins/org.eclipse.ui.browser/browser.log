@@ -1,0 +1,10 @@
+
+Jan 28, 2021 23:47:25.147 NEW SESSION
+Jan 28, 2021 23:47:25.147 [18940:9952:0128/234725.101:ERROR:device_event_log_impl.cc(211)] [23:47:25.102] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 28, 2021 23:47:25.148 [18940:9952:0128/234725.102:ERROR:device_event_log_impl.cc(211)] [23:47:25.102] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+Feb 11, 2021 08:58:15.54 NEW SESSION
+Feb 11, 2021 08:58:15.54 [30200:30884:0211/085814.984:ERROR:device_event_log_impl.cc(211)] [08:58:14.984] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 11, 2021 08:58:15.55 [30200:30884:0211/085814.991:ERROR:device_event_log_impl.cc(211)] [08:58:14.992] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 11, 2021 08:58:15.56 [30200:30884:0211/085814.994:ERROR:device_event_log_impl.cc(211)] [08:58:14.994] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 11, 2021 09:32:28.382 [30200:30884:0211/093228.381:ERROR:device_event_log_impl.cc(211)] [09:32:28.381] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)

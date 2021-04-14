@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;dao.AccountDaiImpl&apos; to &apos;AccountDaoImpl&apos;&#x0D;&#x0A;- Original project: &apos;myDay2.1&apos;&#x0D;&#x0A;- Original element: &apos;dao.AccountDaiImpl&apos;&#x0D;&#x0A;- Renamed element: &apos;dao.AccountDaoImpl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AccountDaiImpl&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;dao{AccountDaiImpl.java[AccountDaiImpl" matchStrategy="1" name="AccountDaoImpl" qualified="false" references="true" similarDeclarations="false" stamp="1611805210168" textual="false" version="1.0"/>
+</session>

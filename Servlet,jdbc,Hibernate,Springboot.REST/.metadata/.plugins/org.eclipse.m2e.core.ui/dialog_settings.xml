@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="F:\Other\abc\test-demo"/>
+			<item value="F:\Other"/>
+			<item value="F:\DAC-ACTS\STS Advanced\Lab_Exam"/>
+			<item value="F:\lab exam\exam"/>
+			<item value="F:\DAC-ACTS\STS Advanced\Adv_JavaLab_exam"/>
+			<item value="F:\DAC-ACTS\Dac\Octomber Days\6.Advanced JAVA\Assignment\officialassignment\official assign"/>
+			<item value="F:\DAC-ACTS\Dac\Octomber Days\6.Advanced JAVA\Assignment\FlightReservationSystem"/>
+			<item value="F:\DAC-ACTS\STS Advanced\VendorManagementRestClnt"/>
+			<item value="F:\DAC-ACTS\STS Advanced\NetbankingRestServer"/>
+			<item value="F:\DAC-ACTS\STS Advanced\day16-Netbanking"/>
+			<item value="F:\DAC-ACTS\STS Advanced\day16-spring-boot"/>
+			<item value="F:\DAC-ACTS\Dac\Octomber Days\6.Advanced JAVA\Day16-Springboot-Rest\day16-data\eclipse-projects\day15-spring_boot2"/>
+			<item value="F:\DAC-ACTS\STS Advanced\day15-spring_boot2"/>
+			<item value="F:\DAC-ACTS\STS Advanced\day14_spring_boot"/>
+			<item value="F:\DAC-ACTS\STS Advanced\day15-spring_boot"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

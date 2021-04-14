@@ -1,0 +1,68 @@
+package com.app.stack;
+
+import com.app.exception.StackException;
+
+public class StackClass implements Stack {
+	private Snode top;
+
+// Constructor of outer class
+	public StackClass() {
+		this.top = null;
+	}
+
+//Nester Inner class
+	public class Snode {
+		private Snode next;
+		private int data;
+
+		public Snode(int n) {
+			super();
+			this.next = null;
+			this.data = n;
+		}
+
+	}
+
+	@Override
+	public void push(int n) {
+		Snode node= new Snode(n);
+		if(top==null)
+			top=node;
+		else {
+			node.next=top;
+			top=node;
+		}
+	}
+
+	@Override
+	public void pop() {
+		if(top==null)
+			System.out.println("Stack is Empty");
+		else {
+			top=top.next;
+			System.out.println("Element removed Successfully...");
+		}
+
+	}
+
+	@Override
+	public boolean isEmpty() {
+		if(top==null)
+			return true;
+		else
+		return false;
+	}
+
+	@Override
+	public boolean isFull() {
+		
+		return false;
+	}
+	@Override
+	public int top() throws StackException {
+		if(top==null)
+			throw new StackException("Stack is Empty");
+		return top.data;
+	}
+
+}

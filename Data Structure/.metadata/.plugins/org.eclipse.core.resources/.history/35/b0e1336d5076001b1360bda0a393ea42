@@ -1,0 +1,8 @@
+package singlyLinkedList;
+
+public interface ISinglyLinkedList {
+	public void addAtEnd(int elem);
+	 public int getFront();
+	 public void removeFront();
+	 public boolean isEmpty();
+}

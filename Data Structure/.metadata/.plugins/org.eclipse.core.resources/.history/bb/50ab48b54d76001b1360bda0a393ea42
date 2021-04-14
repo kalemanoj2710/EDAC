@@ -1,0 +1,35 @@
+package singlyLinkedList;
+
+
+public class SList implements ISinglyLinkedList {
+	private SListNode head;
+	class SListNode{
+		int data;
+		SListNode next;
+	}
+	
+	@Override
+	public void addAtEnd(int elem) {
+		
+
+	}
+
+	@Override
+	public int getFront() {
+		
+		return 0;
+	}
+
+	@Override
+	public void removeFront() {
+		
+
+	}
+
+	@Override
+	public boolean isEmpty() {
+		
+		return false;
+	}
+
+}
